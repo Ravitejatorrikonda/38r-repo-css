@@ -1,0 +1,13 @@
+/* .container>p{
+    background-color: blue;
+    color: white;
+}
+.container>span>p{
+    background-color: brown;
+}
+.container~p{
+    background-color: blueviolet;
+} */
+ .container> .item>span>p{
+    background-color: red;
+ }
