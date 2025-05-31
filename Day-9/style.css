@@ -1,0 +1,44 @@
+/* a:link{
+    color: brown;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: chartreuse;
+}
+a:active{
+    color: darkmagenta;
+} */
+
+
+/* input:focus{
+    outline: 2px solid red;
+    border: none;
+} */
+
+.container>p:nth-child(2){
+    color: red;
+    
+}
+/* input:checked{
+    outline: 2px solid red;
+} */
+ .container{
+    background-color: deeppink;
+    width: fit-content;
+    padding: 10px;
+    
+ }
+ .container{
+    display: none;
+ }
+ i{
+    font-size: 2rem;
+ }
+ #menu:checked+ .container{
+    display: block;
+ }
+ #menu{
+    display: none;
+ }
