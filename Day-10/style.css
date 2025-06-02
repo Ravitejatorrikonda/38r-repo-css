@@ -1,0 +1,36 @@
+
+ /* li::marker{
+    content: '→ ';
+ }
+ input::placeholder{
+    text-align: center;
+   
+ }
+ input{
+    font-size: 2rem;
+ } */
+
+
+/* .after::after{
+    content: '♥ love';
+}
+.before::before{
+    content: '♠';
+} */
+:root{
+    --Primary-color:#91D1D3;
+    --secondary-color:#FFFFFE;
+    --accent-color:#58D7B4;
+}
+.letter::first-letter{
+    color: var(--Primary-color);
+    font-size: 2rem;
+}
+
+.main::first-line{
+   color: var(--secondary-color);
+   background-color: var(--accent-color);
+}
+.main::selection{
+    background-color: deeppink;
+}
